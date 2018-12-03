@@ -8,12 +8,7 @@ h2{
   font-size:20px;
   padding-bottom: 44px;
 }
-h3{
-  font-family: avenir;
-  font-size: 24px;
-  text-align: center;
-  color: black;
-}
+
 header{
   font-family: americantypewriter;
   font-size: 18px;
@@ -28,7 +23,8 @@ body{
 }
 
 footer{
-  background-color: #332F30;
+  background-color:#332F30;
+
 }
 
 .nav-item-meu{
@@ -58,83 +54,6 @@ footer{
   margin: 0px 0px 0px 0px;
 }
 
-.row{
-  /* width:auto; */
-}
-
-.projectcolor1{
-  background-color: #f8f9fa;
-  background-image: linear-gradient(to bottom right, #f8f9fa,#f8f9fa);
-  z-index: 100;
-  display: flex;
-  }
-
-.projectcolor2{
-  background-color: #3981BE;
-  background-image: linear-gradient(to bottom right, #AE7923,#D7BC6D);
-}
-
-
-p{
-  font-family: avenir;
-  color: black;
-  font-size: 18px;
-}
-
-.projectview{
-  color: white;
-  text-decoration: underline;
-  transition: 0.4s ease;
-}
-
-.viewproject{
-  color: white;
-  text-decoration: underline;
-  transition: 0.4s ease;
-}
-
-.projectdescription{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
-  height: 640px;
-  text-align: center;
-}
-
-.imageposition{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
-  height: 640px;
-  text-align: center;
-}
-
-.link{
-  position: relative;
-}
-
-.link:after{
-  content: '';
-  position: absolute;
-  width: 0; height: 3px;
-  display: block;
-  margin-top: 5px;
-  right: 0;
-  background: #fff;
-  transition: width .2s ease;
-  -webkit-transition: width .2s ease;
-}
-
-.link:hover:after{
-  width:100%;
-  left: 0;
-  background: #fff;
-}
-
 #navbar {
   overflow: hidden;
   background-color: #FFFFFF;
@@ -146,27 +65,128 @@ p{
   z-index: 99;
 }
 
-.grow-shadow {
-  -webkit-transition: all .2s ease-in-out;
-          transition: all .2s ease-in-out;
-}
-
-.grow-shadow:hover {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-      transform: scale(1.2);
-}
-
-
 .footerstyle{
   height: 100px;
   text-align: center;
   padding-top: 30px;
   color: #FFFFFF;
   font-family: americantypewriter;
-  font-size: 12px;
 }
 
-.flex-md-equal > * {
-    -ms-flex: 1;
-    flex: 1;
+.wrapper{
+  height: 420px;
+  width: 654px;
+  margin: 50px auto;
+  background-color:#C5B3C8;
+  border-radius: 7px 7px 7px 7px;
+  /* VIA CSS MATIC https://goo.gl/cIbnS */
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.18);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.18);
+}
+
+.wrapper2{
+  height: 420px;
+  width: 654px;
+  margin: 50px auto;
+  background-color:#F27C33;
+  border-radius: 7px 7px 7px 7px;
+  /* VIA CSS MATIC https://goo.gl/cIbnS */
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.18);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.18);
+}
+
+.product-img {
+  float:left;
+  height: 420px;
+  width: 327px;
+  display: block;
+  }
+
+.product-img img {
+  border-radius: 7px 0 0 7px;
+  }
+
+.product-info {
+  float: left;
+  height: 420px;
+  width: 327px;
+  border-radius: 0 7px 7px 0px;
+  background-color: #f8f9fa;
+  }
+
+.product-text {
+  height: 300px;
+  width: 327px;
+  }
+
+.product-text h3 {
+  margin: 0 0 0 38px;
+  padding-top: 52px;
+  font-size: 34px;
+  color: #474747;
+  }
+
+.product-text h3,
+
+.product-price-btn p {
+  font-family: avenir;
+}
+
+.product-text p {
+  height: 125px;
+  margin: 0 0 0 38px;
+  font-family: Avenir;
+  color: #8d8d8d;
+  line-height: 1.7em;
+  font-size: 15px;
+  font-weight: lighter;
+  overflow: hidden;
+    }
+.view-button {
+  height: 103px;
+  width: 327px;
+  margin-top: 17px;
+  position: relative;
+  }
+
+.view-button p{
+  display: inline-block;
+  position: absolute;
+  top: -13px;
+  height: 50px;
+  font-family: avenir;
+  margin: 0 0 0 38px;
+  font-size: 28px;
+  font-weight: lighter;
+  color: #474747;
+  }
+
+.button {
+  float: right;
+  display: inline-block;
+  height: 50px;
+  width: 176px;
+  margin: 0 70px 0 16px;
+  box-sizing: border-box;
+  border: transparent;
+  border-radius: 60px;
+  font-family: avenir;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: #9cebd5;
+  cursor: pointer;
+  outline: none;
+  }
+
+.view-button input:hover {
+  background-color: #79b0a1;
+  }
+
+.container{
+    align-items: flex-start;
+  }
