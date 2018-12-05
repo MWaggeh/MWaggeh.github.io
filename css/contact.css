@@ -1,6 +1,7 @@
 h1{
   font-family: avenir;
   text-align: center;
+  padding-bottom: 72px;
 }
 
 h2{
@@ -41,9 +42,8 @@ footer{
   text-align: center;
   padding-top: 30px;
   color: #FFFFFF;
-  font-family: avenir;
-  font-size: 12px;
-  }
+  font-family: americantypewriter;
+}
 
 .nav-item{
   padding-left: 20px;
@@ -72,9 +72,29 @@ body{
 }
 
 .spacing{
+  padding-top: 100px;
   padding-bottom: 200px;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
 #navbar{
   overflow: hidden;
@@ -86,3 +106,19 @@ body{
   top: 0; /* At the top */
   z-index: 99;
   }
+
+
+.center{
+width: 80px;
+height: 80px;
+background: white;
+-webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+transition: width 2s;
+}
+
+center:hover {
+width: 400px;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
