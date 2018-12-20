@@ -23,7 +23,7 @@ body{
 }
 
 footer{
-  background-color:#332F30;
+  background-color:#f8f9fa;
 
 }
 
@@ -69,7 +69,7 @@ footer{
   height: 100px;
   text-align: center;
   padding-top: 30px;
-  color: #FFFFFF;
+  color: black;
   font-family: americantypewriter;
 }
 
