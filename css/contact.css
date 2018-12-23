@@ -27,17 +27,22 @@ header{
   background-color: #FFFFFF;
   }
 
-footer{
-  background-color:#f8f9fa;
+  footer{
+    font-family: avenir;
+    font-size: 16px;
+    background-color:#f8f9fa;
+    padding-bottom: 20px;
+    padding-top: 30px;
+  }
+
+.profile{
+  font-size: 72px;
+  justify-content: center;
+  font-family: avenir;
 }
 
-.footerstyle{
-  height: 100px;
-  text-align: center;
-  padding-top: 30px;
-  color: black;
-  font-family: americantypewriter;
-  font-size: 14px;
+a{
+  color: #9cebd5;
 }
 
 .nav-item{
@@ -66,10 +71,6 @@ body{
   background-color: #FFFFFF;
 }
 
-.spacing{
-  padding-top: 100px;
-  padding-bottom: 200px;
-}
 
 .center {
     display: block;
@@ -102,7 +103,6 @@ body{
   z-index: 99;
   }
 
-
 .center{
 width: 80px;
 height: 80px;
@@ -116,4 +116,4 @@ width: 400px;
 }
 
 .grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.1); }
+.grow:hover { transform: scale(1.4); }
