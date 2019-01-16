@@ -1,34 +1,35 @@
 h1{
-  font-family: avenir;
+  font-family: 'Thasadith', sans-serif;
   text-align: center;
 }
 h2{
-  font-family: avenir;
+  font-family: 'Thasadith', sans-serif;
   text-align: center;
   font-size:20px;
   padding-bottom: 44px;
 }
 
 header{
-  font-family: americantypewriter;
-  font-size: 18px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 16px;
   font-weight:bold;
   color: black;
   padding-top: 36px;
   padding-bottom: 180px;
   background-color: #FFFFFF;
 }
+
 body{
   background-color: #FFFFFF;
 }
 
 footer{
-    font-family: avenir;
-    font-size: 16px;
-    background-color:#f8f9fa;
-    padding-bottom: 20px;
-    padding-top: 30px;
-  }
+  font-family: 'Thasadith', sans-serif;
+  font-size: 16px;
+  background-color:#f8f9fa;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
 
 .nav-item-meu{
   padding-left: 40px;
@@ -67,7 +68,6 @@ footer{
   top: 0; /* At the top */
   z-index: 99;
 }
-
 
 .wrapper{
   height: 420px;
@@ -127,13 +127,13 @@ footer{
 .product-text h3,
 
 .product-price-btn p {
-  font-family: avenir;
+  font-family: 'Thasadith', sans-serif;
 }
 
 .product-text p {
   height: 125px;
   margin: 0 0 0 38px;
-  font-family: Avenir;
+  font-family: 'Thasadith', sans-serif;
   color: #8d8d8d;
   line-height: 1.7em;
   font-size: 15px;
@@ -152,7 +152,7 @@ footer{
   position: absolute;
   top: -13px;
   height: 50px;
-  font-family: avenir;
+  font-family: 'Thasadith', sans-serif;
   margin: 0 0 0 38px;
   font-size: 28px;
   font-weight: lighter;
@@ -168,7 +168,7 @@ footer{
   box-sizing: border-box;
   border: transparent;
   border-radius: 60px;
-  font-family: avenir;
+  font-family: 'Thasadith', sans-serif;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
