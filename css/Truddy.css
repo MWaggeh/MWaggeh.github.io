@@ -1,22 +1,36 @@
-h4{
-  font-family: americantypewriter;
-  color: white;
+h2{
+  font-family: 'Thasadith', sans-serif;
   font-size: 72px;
+  padding-top: 44px;
+}
+
+h3{
+  font-family: 'Thasadith', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  color: #9B9B9B;
+  text-align: justify;
+}
+
+h4{
+  font-family: 'Thasadith', sans-serif;
+  color: white;
+  font-size: 44px;
 }
 
 h5{
-  font-family: avenir;
+  font-family: 'Thasadith', sans-serif;
   color: white;
 }
 
 h6{
-  font-family: avenir;
+  font-family: 'Thasadith', sans-serif;
   font-size: 24px;
 }
 
 header{
-  font-family: americantypewriter;
-  font-size: 18px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 16px;
   font-weight:bold;
   color: black;
   padding-top: 36px;
@@ -24,23 +38,17 @@ header{
   background-color: #FFFFFF;
 }
 
-.projectsubtitle{
-  padding-top: 80px;
-}
-
 body{
   background-color: #FFFFFF;
 }
 
-h3{
-  font-family: avenir;
-  font-size: 36px;
-  text-align: center;
+.projectsubtitle{
   color: black;
+  padding-top: 80px;
 }
 
 p{
-  font-family: avenir;
+  font-family: 'Thasadith', sans-serif;
   color: black;
   font-size: 18px;
   }
@@ -56,9 +64,13 @@ section{
   background-color: #333333;
 }
 
-.nav-item{
-  padding-left: 20px;
-  padding-right: 20px;
+.nav-item-meu{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.show .nav-item-meu {
+  text-align: center;
 }
 
 .nav-link disabled {
@@ -67,13 +79,9 @@ section{
 
 .navbar-nav {
   background-color: #FFFFFF;
+
 }
 .navbar-brand{
-  padding-left: 40px;
-}
-
-.nav-item{
-  padding-right: 40px;
   padding-left: 40px;
 }
 
@@ -99,14 +107,16 @@ section{
   background-color: #FCFDFE;
 }
 
-.rowcolorC
+.rowcolorC{
+  background-color: #f8f9fa;
+}
 
 .subheading{
   font-size: 24px;
 }
 
 .whitetext{
-  font-family: avenir;
+  font-family: 'Thasadith', sans-serif;
   text-align: center;
   color: white;
   justify-content: center;
@@ -121,8 +131,12 @@ section{
 }
 
 .spacing{
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.position{
+  text-align: center;
 }
 
 
@@ -156,3 +170,4 @@ section{
 #scrollTop:hover {
   background-color: #555;
 }
+
