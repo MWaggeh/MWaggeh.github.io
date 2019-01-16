@@ -1,25 +1,25 @@
 h1{
-  font-family: avenir;
+  font-family: 'Thasadith', sans-serif;
   text-align: center;
   padding-bottom: 72px;
 }
 
 h2{
-  font-family: avenir;
+  font-family: 'Thasadith', sans-serif;
   font-size:20px;
   padding-bottom: 72px;
 }
 
 h3{
-  font-family: avenir;
+  font-family: 'Thasadith', sans-serif;
   font-size: 24px;
   text-align: center;
   color: white;
 }
 
 header{
-  font-family: americantypewriter;
-  font-size: 18px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 16px;
   font-weight:bold;
   color: black;
   padding-top: 36px;
@@ -27,9 +27,13 @@ header{
   background-color: #FFFFFF;
   }
 
-  footer{
-    font-family: avenir;
-    font-size: 16px;
+body{
+  background-color: #FFFFFF;
+  }
+
+footer{
+  font-family: 'Thasadith', sans-serif;
+  font-size: 16px;
   background-color:#f8f9fa;
   padding-bottom: 20px;
   padding-top: 30px;
@@ -37,12 +41,12 @@ header{
   bottom:0;
   width: 100%;
   }
-  }
 
 .profile{
   font-size: 72px;
   justify-content: center;
-  font-family: avenir;
+  font-family: 'Thasadith', sans-serif;
+  padding-bottom: 40px;
 }
 
 a{
@@ -70,11 +74,6 @@ a{
   padding-right: 40px;
   padding-left: 40px;
   }
-
-body{
-  background-color: #FFFFFF;
-}
-
 
 .center {
     display: block;
@@ -108,8 +107,7 @@ body{
   }
 
 .center{
-width: 80px;
-height: 80px;
+
 background: white;
 -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
 transition: width 2s;
@@ -120,4 +118,4 @@ width: 400px;
 }
 
 .grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.4); }
+.grow:hover { transform: scale(1.2); }
