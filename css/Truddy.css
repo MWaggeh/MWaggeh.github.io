@@ -14,8 +14,8 @@ h3{
 
 h4{
   font-family: 'Thasadith', sans-serif;
-  color: white;
-  font-size: 44px;
+  color: black;
+  font-size: 36px;
 }
 
 h5{
@@ -139,6 +139,12 @@ section{
   text-align: center;
 }
 
+.justify-left{
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+
 
 #navbar {
   overflow: hidden;
@@ -170,4 +176,3 @@ section{
 #scrollTop:hover {
   background-color: #555;
 }
-
