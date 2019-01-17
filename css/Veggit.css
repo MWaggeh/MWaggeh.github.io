@@ -1,28 +1,34 @@
+h2{
+  font-family: 'Thasadith', sans-serif;
+  font-size: 72px;
+}
+
+h3{
+  font-family: 'Thasadith', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  color: black;
+}
 
 h4{
-  font-family: americantypewriter;
+  font-family: 'Thasadith', sans-serif;
   color: white;
   font-size: 72px;
 }
 
-h2{
-  font-family: avenir;
-  font-size: 72px;
-} 
-
 h5{
-  font-family: avenir;
+  font-family: 'Thasadith', sans-serif;
   color: white;
 }
 
 h6{
-  font-family: avenir;
+  font-family: 'Thasadith', sans-serif;
   font-size: 24px;
 }
 
 header{
-  font-family: americantypewriter;
-  font-size: 18px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 16px;
   font-weight:bold;
   color: black;
   padding-top: 36px;
@@ -30,29 +36,23 @@ header{
   background-color: #FFFFFF;
 }
 
-.projectsubtitle{
-  padding-top: 80px;
-}
-
 body{
   background-color: #FFFFFF;
 }
 
-h3{
-  font-family: avenir;
-  font-size: 36px;
-  text-align: center;
-  color: black;
+.projectsubtitle{
+  padding-top: 80px;
 }
 
+
 p{
-  font-family: avenir;
+  font-family: 'Thasadith', sans-serif;
   color: black;
   font-size: 18px;
   }
 
 ol{
-  font-family: avenir;
+  font-family: 'Thasadith', sans-serif;
   font-size:16px;
 }
 
@@ -62,9 +62,13 @@ section{
   background-color: #333333;
 }
 
-.nav-item{
-  padding-left: 20px;
-  padding-right: 20px;
+.nav-item-meu{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.show .nav-item-meu {
+  text-align: center;
 }
 
 .nav-link disabled {
@@ -73,13 +77,9 @@ section{
 
 .navbar-nav {
   background-color: #FFFFFF;
+
 }
 .navbar-brand{
-  padding-left: 40px;
-}
-
-.nav-item{
-  padding-right: 40px;
   padding-left: 40px;
 }
 
@@ -109,6 +109,11 @@ section{
   background-color: #eaeaea
 }
 
+.rowcolorD{
+  background-color: #ebebeb;
+}
+
+
 .containercolorA{
   background-color: #333333;
 }
@@ -118,7 +123,7 @@ section{
 }
 
 .whitetext{
-  font-family: avenir;
+  font-family: 'Thasadith', sans-serif;
   text-align: center;
   color: white;
   justify-content: center;
@@ -130,6 +135,12 @@ section{
   justify-content: center;
   text-align: center;
   padding: 50px;
+}
+
+.description{
+  text-align: center;
+  vertical-align: middle;
+  flex: auto;
 }
 
 .spacing{
