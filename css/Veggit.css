@@ -149,6 +149,14 @@ section{
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  padding-bottom: 50px;
+}
+
+.subtitleposition{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   padding: 50px;
 }
 
