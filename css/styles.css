@@ -108,6 +108,20 @@ footer{
   -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.18);
   box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.18);
 }
+  
+  .wrapper3{
+  display: flex;
+  height: 420px;
+  width: 654px;
+  margin: 50px auto;
+  background-color:#99EDCC;
+  border-radius: 7px 7px 7px 7px;
+  /* VIA CSS MATIC https://goo.gl/cIbnS */
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.18);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.18);
+}
+  
 
 .product-img {
   float:left;
